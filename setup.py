@@ -24,7 +24,7 @@ setup(
         "pandas==1.4.3",
         "torchvision>=0.4.2",
         "Pillow",
-        "sklearn",
+        "scikit-learn",
         "tensorboard",
         "fairscale",
     ],
