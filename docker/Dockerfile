@@ -50,7 +50,7 @@ RUN git clone https://github.com/facebookresearch/detectron2 detectron2_repo
 RUN pip install -e detectron2_repo
 
 ENV SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
-RUN git clone https://github.com/facebookresearch/slowfast
+RUN git clone https://github.com/Jungkyu-Lee/slowfast.git
 ENV PYTHONPATH ./slowfast:$PYTHONPATH
 WORKDIR ./slowfast
 RUN python setup.py build develop
